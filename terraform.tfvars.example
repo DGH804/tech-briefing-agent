@@ -1,0 +1,7 @@
+# Copy to terraform.tfvars and fill in. terraform.tfvars is git-ignored.
+email = "you@example.com"
+
+# Optional overrides
+# aws_region          = "us-east-1"
+# schedule_expression = "cron(0 7 ? * MON-FRI *)"   # weekdays only
+# claude_model        = "claude-haiku-5-5"

@@ -1,0 +1,8 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(aws lambda *)",
+      "Bash(aws dynamodb *)"
+    ]
+  }
+}
