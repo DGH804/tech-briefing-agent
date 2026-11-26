@@ -10,9 +10,9 @@ variable "market_api_key_parameter_name" {
 }
 
 variable "market_api_base_url" {
-  description = "Massive (Polygon.io) REST API base URL"
+  description = "Massive REST API base URL (formerly api.polygon.io)"
   type        = string
-  default     = "https://api.polygon.io"
+  default     = "https://api.massive.com"
 }
 
 variable "market_schedule_expression" {
